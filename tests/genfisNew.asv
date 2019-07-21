@@ -902,7 +902,7 @@ elseif ModelRun == 8   % comparison of modesl
     hist(dataErr,[hmin:10:hmax]);
     title({'ANFIS-Ensemble 5','error frequency'})
     ylabel('Frequency of Error');
-    xlabel('Errors (brackets ± 10)');
+    xlabel('Errors (brackets Â± 10)');
     hold off;    
     subplot(2,2,2)
     dataErr = abs(test - en10ANFIS);
@@ -912,7 +912,7 @@ elseif ModelRun == 8   % comparison of modesl
     hist(dataErr,[hmin:10:hmax]);
     title({'ANFIS-Ensemble 10','error frequency'})
     ylabel('Frequency of Error');
-    xlabel('Errors (brackets ± 10)');
+    xlabel('Errors (brackets Â± 10)');
     hold off; 
     subplot(2,2,3)
     dataErr = abs(test - en50ANFIS);
@@ -922,7 +922,7 @@ elseif ModelRun == 8   % comparison of modesl
     hist(dataErr,[hmin:10:hmax]);
     title({'ANFIS-Ensemble 50','error frequency'})
     ylabel('Frequency of Error');
-    xlabel('Errors (brackets ± 10)');
+    xlabel('Errors (brackets Â± 10)');
     hold off; 
     subplot(2,2,4)
     dataErr = abs(test - en100ANFIS);
@@ -932,7 +932,7 @@ elseif ModelRun == 8   % comparison of modesl
     hist(dataErr,[hmin:10:hmax]);
     title({'ANFIS-Ensemble 100','error frequency'})
     ylabel('Frequency of Error');
-    xlabel('Errors (brackets ± 100)');
+    xlabel('Errors (brackets Â± 100)');
     hold off;    
     
     
