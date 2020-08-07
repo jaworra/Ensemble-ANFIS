@@ -1,0 +1,19 @@
+% gennerate correlation matrix
+% MSC8001
+% Author: John Worrall
+% Description:Given input data, create a ANFIS
+% Requirments: 
+%----------------------------
+
+clear 
+clc
+close all
+
+%Raw values --------------------------------
+closeData=xlsread('Indexs.xlsx','AlIndex');
+day = closeData(:, 2);
+AORD = closeData(:, 3)
+DJI = closeData(:, 4)
+FTSE = closeData(:, 5)
+HSI = closeData(:, 6)
+HSI = closeData(:, 6)

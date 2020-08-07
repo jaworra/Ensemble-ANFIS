@@ -1,0 +1,2 @@
+This method uses Training 80% Validation 10% Testing 10%
+With ANFIS call for backprogation
