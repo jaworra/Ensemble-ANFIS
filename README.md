@@ -23,10 +23,9 @@ A preliminary investigation was performed to display the relationship between th
 <small>Figure 2. Indexes correlation matrix</small>
 </p>
 
-
 <p></p>
 <p style="text-align:left">
-As ANFIS is a high parametric model, the challenge is to control parameters in order to avoid
+The challenge in ANFIS model is to control the parameters in order to avoid
 overfitting. In this study ANFIS is based on first order Sugeno and Mamdani inference
 system with a number of indexes. Below is a sample of training model parameters selection.
 </p>
@@ -48,7 +47,7 @@ system with a number of indexes. Below is a sample of training model parameters 
 <small>Figure 5. SOM-ANFIS training results </small>
 </div>
 
-In the below Figure (5, 10, 50,100 ensemble model), we illustrate a boxplot of the
+In the below Figure (5,10,50,100 ensemble model) we illustrate a boxplot of the
 ensemble-ANFIS models forecasting error for All Ordinaries value. The outliers specified by
 the end of whisker in each boxplot represent the extreme magnitudes of the forecasting error
 within the testing phase along with other statistics; upper quartile, median and lower quartile.
