@@ -35,7 +35,7 @@ system with a number of indexes. Below is a sample of training model parameters 
         <img src="img\model-config2.png" height=300 />
         <p style="text-align:center">
         <small>Figure 3. SOM structure</small></p>
-        <img src="img\model-fis-structure.png" height=300 />
+        <img src="img\model-fis-structure.png" height=350 />
         <p style="text-align:center">
         <small>Figure 4. FIS structure</small>
         </p>
